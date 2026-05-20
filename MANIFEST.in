@@ -1,0 +1,5 @@
+include requirements.txt
+include *.md
+include *.txt
+recursive-include mart *.css *.csv *.html *.ico *.js *.json *.md *.png *.py *.svg *.txt *.xml
+recursive-exclude mart *.pyc
